@@ -30,7 +30,7 @@ type EventTracker = {
 
 const EVENTS_TO_TRACK: EventTracker[] = [
   {
-    type: `$0xb13b0cc88a2efa3c845908f63a24e25b1d23ab28d522b23937e0fc2d04bdd1c4::test`,
+    type: `0xb13b0cc88a2efa3c845908f63a24e25b1d23ab28d522b23937e0fc2d04bdd1c4::test`,
     filter: {
       MoveEventModule: {
         module: 'test',
